@@ -217,11 +217,11 @@ section{
 
 .project-grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minman(300px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
   gap: 2rem;
 }
 .project-card{
-  padding: 3rem;
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
